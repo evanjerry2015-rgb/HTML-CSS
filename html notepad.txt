@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>HTML & CSS</title>
+	</head>
+	<body>
+	</body>
+		<div style="text-align: center;">
+		<img src="oip.jfif">
+		</div>
+		<h1 style="text-align:center;color:maroon; font-family:verdana; font-size:267%;"><bold>HTML & CSS<bold></h1>
+		<h1 style="color:darkblue;"> Introdution to HTML</h1>
+		<p style="font-size:150%;">HTML stants for Hyper Text Markup Language. A markup language is a set of markup tags.
+		HTML helps you structure your page into elements such as paragraphs, sections, headings, navigation bars, and so on.
+		HTML (Hyper Text Markup Language) is the standered language for creating web-pages.
+		<div style="text-align: center;">
+		<a style="font-size:20px; background-color:red; color:white; padding: 	15px 35px 15px 35px" href="read more.html">Read More</a>
+		</div>
+		<h2>Steps for creating an HTML page</h2>
+		<p style="font-size:150%">Step 1: Open CS Lab<br>Step 2: Choose the HTML editor, Then click on the IDE icon and give
+		a project name<br>Sten 3: A default page which is saved with a .html extension appears<br>Step 4:Start writing the
+		code and Save it<br>Step 5: Click on Open to open in the browser.
+
+<hr align="center"style="width:60%; margin-left:300; margin-bottom:50px;margin-top: 50px;">
+
+
+		<h1 style="color:darkblue;">HTML Tags</h1>
+		<p style="font-size:150%;">HTML  uses tags to stucture content. HTML tags are keywords. Tags are enclosed in angle 
+		brackets (< >), forming elements. For example.< p > represents a paragraph.</p>
+		<p style="font-size:150%; color:darkgreen;">• HTML tags normally come in pairs like < p > and < /p ><br>•The first 
+		tag in a pair is the start tag, and the second tag is the end tag<br>•The end tag is writtern like the start tag, but 
+		with a forward slash inserted before the tag name
+
+<hr align="center"style="width:60%; margin-left:300; margin-bottom:50px;margin-top: 50px;">
+
+		<h1 style="color:darkblue;">Structure of an HTML tag</h1>
+		<p style="font-size:150%;">An HTML document consists of two main sections: the < head > and < body >. The head contains meadata like the page title,
+		while the body contains the content users see. Basic stucture:</p>
+		<img src="pph.webp">
+		<p style="font-size:150%; font-family:verdana;">To illustrate what a page looks like, lets create a basic HTML document:</p>
+		<p style="font-size:150%; background-color:black; color:white;">< !DOCTYPE html ><br>< head ><br>< title >Metaverse< /title ><br>< /head ><br>< body >
+		<br>< div ><br>< h1 >Metaverse< /h1 ><br>< h2 >The New Reality< /h2 ><br>< p >The metaverse is a vision of how the next generation of the internet will
+		operate.< br > A metaverse will be an improved digital environment where it is possible to move< br >seamlessly between work, play, shopping, 
+		socializing and creativity in one digital landscape.< /p ><br>< img src="img.png" width="400" height="300">< br ><br>< a href="https://www.google.com"
+		<br>target="_blank" >Click Here< /a ><br>< /div ><br>< /body ><br>< /html 
+		<div style="text-align: center;">
+		<a style="font-size:20px; background-color:red; color:white; padding: 	15px 35px 15px 35px" href="https://www.w3schools.com/html/html_styles.asp">
+		learn More</a>
+		</div>
+
+<hr align="center"style="width:60%; margin-left:300; margin-bottom:50px;margin-top: 50px;">
+
+		<h1 style="color:darkblue;">CSS</h1>
+		<p style="font-size:150%;">CSS (Cascading Style Sheets):CSS is a powerful stylesheet language used for describing the presentation of
+		a document writtern in HTML. It enchances the visual appeal and layout of web-pages, allowing developers to control the styling and appearance of
+		HTML elements.
+		<p style="font-size:150%; background-color:powderblue;"><big>Features of CSS</big><br>• Simple & Resusable.<br>• Improves flexibility & content accessibility.
+		<br>• Separates content from presentation.<br>• Defines sizes, spacing, font colours, and layouts.</p>
+		<p style="font-size:150%; background-color:powderblue;"><big>Advantages of CSS</big>• Good control over presentaion.<br>• It reduces the time spent
+		on maintaining the HTM document.<br>• Less cluttered.</p>
+
+<hr align="center"style="width:60%; margin-left:300; margin-bottom:50px;margin-top: 50px;">
+
+		<h1 style="color:darkblue;">Ways of Applying CSS</h1>
+		<p style="font-size:150%;">There are three main ways to apply CSS to HTML elements:<br>Inline Styles: Applied directly to individual HTML elements uising the style attribute.</p>
+		<p style="font-size:150%; background-color:black; color:white;">< html ><br> < head ><br>< title >Inline CSS< /title ><br>< /head ><br>< body ><br>
+		< h1 style="color:green; font-size:20px;" >Metaverse< /h1 ><br>< /body ><br>< /html ></p>
+		<p style="font-size:150%;">Interrnal Styles (Embedded Styles): Applied within the HTML document using the < style > tag in the < head > section.
+		<p style="font-size:150%; background-color:black; color:white;">< html ><br>< head ><br>< title >Interrnal CSS< /title ><br>< style ><br>h2{<br>
+		color:blue;<br>font-size: 16px;<br>{<br>< /style >< /head ><br>< body >< h2 >The New Reality< /h2 ><br>< /body ><br>< /html ></p>
+		<p style="font-size:150%; background-color:powderblue;"><big>Different Style Properties are:</big><br>• Colour Properties <br>• Font properties 
+		<br>• Border Properties<br>• Marquee Properties<br>• Background Properties<br>• Text properties<br>• Table Properties</p>
+		<p style="font-size:150%;">Example.<br>In the previouse example of Metaverse, apply the given style as Internal styles.
+		<p style="font-size:150%; background-color:black; color:white;">< head ><br>< style ><br>body{<br>background-color: rgb(18, 201, 125);<br>{<br>div{
+		<br>background-color:rgb (233, 239, 146)<br>width:550px;<br>height:500px;<br>margin-left:300px;<br>5px solid green;<br>{<br>p{<br>font-size: 14px;<br>
+		{<br>h2{<br>color:blue;<br>font-size:16px;<br>{<br>< /style ><br>< /head ></p>
+
+<hr align="center"style="width:60%; margin-left:300; margin-bottom:50px;margin-top: 50px;">
+
+	</body>
+								
+</html>
